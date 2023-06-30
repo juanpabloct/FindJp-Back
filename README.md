@@ -1,7 +1,7 @@
 # FindJp-Back
 
-## steps for run back
 ## for first step the file find in ./funciones
+## steps for run back
 
 ### The clone the project is run commad 
 	- pip install -r requirements.txt
