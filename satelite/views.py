@@ -35,7 +35,7 @@ def satelite_views(request: HttpRequest):
             for antena in parsed_data.antenas:
                 antena_name = antena.name
                 distance = antena.distance
-                messages.extend(antena.message)
+                messages+=[antena.message]
                 if antena_name in antena_coords:
                     x, y = calculoPosition(antena_name, distance)
                     x_sum += x
